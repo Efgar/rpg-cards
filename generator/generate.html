@@ -101,8 +101,9 @@
                         <div class="col-sm-8">
                             <select class="form-control" id="card-size" data-option="card_size">
                                 <option value="225x35">2.25&quot; x 3.5&quot; (Bridge)</option>
-                                <option value="25x35" selected>2.5&quot; x 3.5&quot; (Poker)</option>
+                                <option value="25x35" >2.5&quot; x 3.5&quot; (Poker)</option>
                                 <option value="35x50">3.5&quot; x 5.0&quot;</option>
+                                <option value="31x46" selected>3.1&quot; x 4.6&quot; (Dixit)</option>
                                 <option value="75x50">7.5&quot; x 5.0&quot;</option>
                             </select>
                         </div>
@@ -110,21 +111,21 @@
                     <div class="form-group">
                         <label for="card-size" class="col-sm-4 control-label">Cards/page</label>
                         <div class="col-sm-3">
-                            <input type="text" id="page-rows" class="form-control" data-option="page_rows" value="3">
+                            <input type="text" id="page-rows" class="form-control" data-option="page_rows" value="2">
                         </div>
                         <div class="col-sm-2">
                             <p class="form-control-static">x</p>
                         </div>
                         <div class="col-sm-3">
-                            <input type="text" id="page-columns" class="form-control" data-option="page_columns" value="3">
+                            <input type="text" id="page-columns" class="form-control" data-option="page_columns" value="2">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="card-arrangement" class="col-sm-4 control-label">Arrangement</label>
                         <div class="col-sm-8">
                             <select class="form-control" id="card-arrangement" data-option="card_arrangement">
-                                <option value="doublesided" selected>Double sided printing</option>
-                                <option value="front_only">Front side only</option>
+                                <option value="front_only" selected>Front side only</option>
+                                <option value="doublesided">Double sided printing</option>
                                 <option value="side_by_side">Side by side</option>
                             </select>
                         </div>
@@ -134,7 +135,7 @@
                         <div class="col-sm-8">
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" checked id="rounded-corners" data-option="rounded_corners" value="1"> Rounded card corners
+                                    <input type="checkbox" checked id="rounded-corners" data-option="rounded_corners" value="0"> Rounded card corners
                                 </label>
                             </div>
                         </div>
