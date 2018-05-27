@@ -81,9 +81,9 @@ page[size="25x35"] {
 
 /* Dixit card size */
 .card-size-31x46 {
-    width:3.1in;
-    min-width:4.6in;
-    height:5.0in;
+    width:3.15in;
+    min-width:3.15in;
+    height:4.7in;
 }
 .card-size-31x46 .card-back-icon {
     width: 1.5in;

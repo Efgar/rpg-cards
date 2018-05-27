@@ -1,11 +1,12 @@
 .card {
+    margin: 0.5px;
     border: 2mm solid;
     box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
-    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6pt;
     overflow: hidden;
 }
 
@@ -132,11 +133,11 @@
     line-height: 7.5mm;
 }
 .card-subtitle {
-    height: 18px;
+    height: 16px;
     margin-bottom: 0.0em;
-    line-height: 18px;
+    line-height: 16px;
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-    font-size: 10pt;
+    font-size: 8pt;
     font-style: italic;
 }
 .card-picture {
@@ -181,7 +182,7 @@
 
 .card-section {
     border-bottom: 1px solid;
-    font-size: 10pt;
+    font-size: 9pt;
     font-variant: small-caps;
     font-weight: normal;
     letter-spacing: 1px;

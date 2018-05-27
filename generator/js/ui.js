@@ -205,7 +205,12 @@ function ui_render_selected_card() {
     if (card) {
         var front = card_generate_front(card, card_options);
         var back = card_generate_back(card, card_options);
-        $('#preview-container').html(front + "\n" + back);
+        if(card_options.card_arrangement !== "front_only"){
+            $('#preview-container').html(front + "\n" + back);
+        }else{
+            $('#preview-container').html(front);
+        }
+        
     }
     local_store_save();
 }

@@ -9,13 +9,13 @@ function card_default_options() {
         default_icon: "ace",
         default_title_size: "13",
         page_size: "A4",
-        page_rows: 3,
-        page_columns: 3,
-        card_arrangement: "doublesided",
-        card_size: "25x35",
+        page_rows: 2,
+        page_columns: 2,
+        card_arrangement: "front_only",
+        card_size: "31x46",
         card_count: null,
         icon_inline: true,
-        rounded_corners: true
+        rounded_corners: false
     };
 }
 
@@ -36,8 +36,12 @@ function card_init(card) {
 
 function card_has_tag(card, tag) {
     tag = tag.trim().toLowerCase();
-    var index = card.tags.indexOf(tag);
-    return index > -1;
+	for(var i = 0; i < card.tags.length; i++){
+		if(card.tags[i].toLowerCase() === tag){
+			return true
+		}
+	}
+	return false;
 }
 
 function card_add_tag(card, tag) {
@@ -243,7 +247,7 @@ function card_element_dndstats(params, card_data, options) {
 function card_element_bullet(params, card_data, options) {
     var result = "";
     result += '<ul class="card-element card-bullet-line">';
-    result += '   <li class="card-bullet">' + params[0] + '</li>';
+    result += '   <li class="card-bullet">' + params[0] + " " + params[1] + '</li>';
     result += '</ul>';
     return result;
 }
