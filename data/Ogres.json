@@ -1,0 +1,1072 @@
+[
+  {
+    "count": 1,
+    "title": "Drow",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Elf), Neutral Evil",
+      "rule",
+      "property | Armor class | 15 (chain shirt)",
+      "property | Hit points | 13 (3d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 10 | 14 | 10 | 11 | 11 | 12",
+      "rule",
+      "property | Skills | Perception +2, Stealth +4",
+      "property | Senses | Darkvision 120ft, Passive Perception 12",
+      "property | Language | Elvish, Undercommon",
+      "property | Challenge | 1/4 (50 XP)",
+      "rule",
+      "description |Fey Ancestry| Advantage on saving throws against being charmed, and magic can't put the drow to sleep.",
+      "description |Innate Spellcasting| Spellcasting ability Charisma (DC 11 save):",
+      "bullet |At will:| <i>dancing lights</i>",
+      "bullet |1/day each:| <i>darkness</i>, <i>faerie fire</i>",
+      "description |Sunlight Sensitivity| In sunlight, disadvantage on attack rolls and on Perception checks that rely on sight.",
+      "fill | 1",
+      "section | Actions",
+      "description |Shortsword| Melee: +4, 5ft. Hit: 5 (1d6 + 2) piercing damage.",
+      "description |Hand Crossbow| Ranged: +4, range 30/120 ft. Hit: 5 (1d6 + 2) piercing, and target makes DC13 Con save or poisoned for 1 hour. Failing by 5 or more, falls to sleep. Wakes up if it early if it takes damager or someone spends action to wake"
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Elf",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_128"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Drow Elite Warrior",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Elf), Neutral Evil",
+      "rule",
+      "property | Armor class | 18 (studded leather, shield)",
+      "property | Hit points | 71 (lld8 + 22) ",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 13 | 18 | 14 | 11 | 13 | 12",
+      "rule",
+      "property | Saving Throws | Dex +7, Con +5, Wis +4",
+      "property | Skills | Perception +4, Stealth +10",
+      "property | Senses | Darkvision 120ft, Passive Perception 14",
+      "property | Language | Elvish, Undercommon",
+      "property | Challenge | 5 (1800 XP)",
+      "rule",
+      "description |Fey Ancestry| Advantage on saving throws against being charmed, and magic can't put the drow to sleep.",
+      "description |Innate Spellcasting| Spellcasting ability Charisma (DC 12 save). Can cast the following spells, with no components:",
+      "bullet |At will:| <i>dancing lights</i>",
+      "bullet |1/day each:| <i>darkness</i>, <i>faerie fire</i>, <i>levitate</i> (self only)",
+      "description |Sunlight Sensitivity| In sunlight, disadvantage on attack rolls and on Perception checks that rely on sight."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Elf",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_128"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Drow Elite Warrior",
+    "icon": "hood",
+    "contents": [
+      "section | Actions",
+      "description |Multiattack| The drow makes two shortsword attacks.",
+      "description |Shortsword| Melee Weapon Attack: +7 to hit, reach 10ft.,one target. Hit: 7 (ld6 + 4) piercing damage plus 10 (3d6) poison damage.",
+      "description |Hand Crossbow| Ranged Weapon Attack: +7 to hit, range 30/120ft., one target. Hit: 7 (ld6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takesan action to shake it awake. ",
+      "fill | 1",
+      "section | <b>Reactions</b>",
+      "description |Parry| The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon. "
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Elf",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_128"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Hobgoblin",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Goblinoid), Lawful Lawful",
+      "rule",
+      "property | Armor class | 18 (chain mail, shield)",
+      "property | Hit points | 11 (2d8 + 2)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 13 | 12 | 12 | 10 | 10 | 9",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Goblin",
+      "property | Challenge | 1/2 (100 XP)",
+      "rule",
+      "description |Martial Advantage| Once per turn, the Hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the Hobgoblin that isn't incapacitated.",
+      "fill | 1",
+      "section | Actions",
+      "description |Longsword| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.",
+      "description |Longbow| Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Goblinoid",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_186"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Goblin",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Small Humanoid (Goblinoid), Neutral Evil",
+      "rule",
+      "property | Armor class | 15 (leather armor, shield)",
+      "property | Hit points | 7 (2d6)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 8 | 14 | 10 | 10 | 8 | 8",
+      "rule",
+      "property | Skills | Stealth +6",
+      "property | Senses | Darkvision 60ft, Passive Perception 9",
+      "property | Language | Common, Goblin",
+      "property | Challenge | 1/4 (50 XP)",
+      "rule",
+      "description | Nimble escape | The Goblin can take the Disengage or Hide action as a bonus action on each of its turns.",
+      "fill | 2",
+      "section | Actions",
+      "description | Scimitar| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+      "description |Shortbow| Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Goblin",
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_166"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Barghest",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Fiend, Neutral Evil",
+      "rule",
+      "property | Armor class | 17 (natural armor)",
+      "property | Hit points | 90 (12d10 + 24)",
+      "property | Speed | 60ft, (30 ft goblin form)",
+      "rule",
+      "dndstats | 19 | 15 | 14 | 13 | 12 | 14",
+      "rule",
+      "property | Damage Resistances | Cold, Fire, Lightning; Physical from non-magical weapons",
+      "property | Damage Immunities | Acid, Poison",
+      "property | Condition Immunities | Poisoned",
+      "property | Skills | Deception +4, Intimidation +4, Perc. +5, Stealth +4",
+      "property | Senses | Blindsight 60ft, Darkvision 60ft, Passive Perception 15",
+      "property | Language | Abyssal, Common, Goblin, Infernal; Telep. 60ft.",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "description |Shapechanger| The barghest can use its action to polymorph into a Small goblin or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. The barghest reverts to its true form if it dies.",
+      "description |Fire Banishment| When the barghest starts its turn engulfed in flames that are at least 10 feet high or wide, it must succeed on a DC 15 Charisma saving throw or be instantly banished to Gehenna. Instantaneous bursts of flame (such as a red dragon's breath or a fireball spell) don't have this effect on the barghest."
+    ],
+    "tags": [
+      "creature",
+      "Fiend",
+      
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_123"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Barghest",
+    "icon": "hood",
+    "contents": [
+      "description |Keen Smell| The barghest has advantage on Wisdom (Perception) checks that rely on smell.",
+      "description |Innate Spellcasting| The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components::",
+      "bullet | At will:| <i>levitate</i>, <i>minor illusion</i>, <i>pass without trace</i>",
+      "bullet | 1/day each:| <i>charm person</i>, <i>dimension door</i>, <i>suggestion</i>",
+      "description |Soul Feeding| A barghest can feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested. If the barghest dies before the soul is digested, the soul is released. While a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life.",
+      "fill | 1",
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) piercing damage.",
+      "description |Claws| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Fiend",
+      
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_123"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Nilbog",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Small  Humanoid (Goblinoid), Chaotic Evil",
+      "rule",
+      "property | Armor class | 13 (leather armor)",
+      "property | Hit points | 7 (2d6)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 8 | 14 | 10 | 10 | 8 | 15",
+      "rule",
+      "property | Skills | Stealth +6",
+      "property | Senses | Darkvision 60ft, Passive Perception 9",
+      "property | Language | Common, Goblin",
+      "property | Challenge | 1 (200 xp)",
+      "rule",
+      "description|Innate Spellcasting| The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+      "bullet|At will:| <i>mage hand</i>, <i>Tasha's hideous laughter</i>, <i>vicious mockery</i>",
+      "bullet|1/day:| <i>confusion</i>",
+      "description|Nilbogism| Any creature that attempts to damage the nilbog must first succeed on a DC 12 Charisma saving throw or be charmed until the end of the creature's next turn. A creature charmed in this way must use its action praising the nilbog. The nilbog can't regain hit points, including through magical healing, except through its Reversal of Fortune reaction.",
+      "description|Nimble Escape| The nilbog can take the Disengage or Hide action as a bonus action on each of its turns."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Goblinoid",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_182"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Nilbog",
+    "icon": "hood",
+    "contents": [
+      "section | Actions",
+      "description|Fool's Scepter| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.",
+      "description|Shortbow| Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.",
+      "fill | 1",
+      "section | Reactions",
+      "description|Reversal of Fortune| In response to another creature dealing damage to the nilbog, the nilbog reduces the damage to 0 and regains 1d6 hit points."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Goblinoid",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_182"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Giant Spider",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Beast, Unaligned",
+      "rule",
+      "property | Armor class | 14 (natural armor)",
+      "property | Hit points | 26 (4d10 + 4)",
+      "property | Speed | 30ft, <b>Climb</b> 30ft",
+      "rule",
+      "dndstats | 14 | 16 | 12 | 21 | 11 | 4",
+      "rule",
+      "property | Skills | Stealth +7",
+      "property | Senses | Blinsight 10ft, Darkvision 60ft, Passive Perc. 13",
+      "property | Language | -",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "description |Spider Climb| The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "description |Web Sense| While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
+      "description |Web Walker| The spider ignores movement restrictions caused by webbing.",
+      "fill | 1"
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_328"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Giant Spider",
+    "icon": "hood",
+    "contents": [
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "description |Web (Recharge 5-6)| Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_328"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Giant Rat",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Small Beast, Unaligned",
+      "rule",
+      "property | Armor class | 12",
+      "property | Hit points | 7 (2d6)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 7 | 15 | 11 | 2 | 10 | 4",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | -",
+      "property | Challenge | 1/8 (25 XP)",
+      "rule",
+      "description |Keen Smell| The rat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "description |Pack Tactics| The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "fill | 1",
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_327"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Giant Vulture",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Beast, Neutral Evil",
+      "rule",
+      "property | Armor class | 10",
+      "property | Hit points | 22 (3d10 + 6)",
+      "property | Speed | 10ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 15 | 10 | 15 | 6 | 12 | 7",
+      "rule",
+      "property | Skills | Perception +3",
+      "property | Senses | Passive Perception 13",
+      "property | Language | Understands Common but can't speak",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "description |Keen Sight and Smell| The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.",
+      "description |Pack Tactics| The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The vulture makes two attacks: one with its beak and one with its talons.",
+      "description |Beak| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
+      "description |Talons| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Neutral",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_329"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Hyena",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Beast, Unaligned",
+      "rule",
+      "property | Armor class | 11",
+      "property | Hit points | 5 (1d8 + 1)",
+      "property | Speed | 50ft",
+      "rule",
+      "dndstats | 11 | 13 | 12 | 2 | 12 | 5",
+      "rule",
+      "property | Skills | Perception +3",
+      "property | Senses | Passive Perception 13",
+      "property | Language | -",
+      "property | Challenge | 0 (10 XP)",
+      "rule",
+      "description |Pack Tactics| The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "fill | 1",
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_331"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Wererat",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Shapechanger), Lawful Evil",
+      "rule",
+      "property | Armor class | 12",
+      "property | Hit points | 33 (6d8 + 6)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 10 | 15 | 12 | 11 | 10 | 8",
+      "rule",
+      "property | Skills | Perception +2, Stealth +4",
+      "property | Damage Immunities | Physical from non-magic, non-silvered",
+      "property | Senses | Darkvision 60ft (rat form only), Passive Perception 12",
+      "property | Language | Common (can't speak in Rat form)",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Shapechanger| The Wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+      "description |Keen Smell| The Wererat has advantage on Wisdom (Perception) checks that rely on smell."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Shapechanger",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_209"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Wererat Continued: Actions",
+    "icon": "hood",
+    "contents": [
+      "section |Actions",
+      "description |Multiattack (Humanoid or Hybrid Form Only)| The Wererat makes two attacks, only one of which can be a bite.",
+      "description |Bite (Rat or Hybrid Form Only)| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with Wererat lycanthropy.",
+      "description |Shortsword (Humanoid or Hybrid Form Only)| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "description |Hand Crossbow (Humanoid or Hybrid Form Only)| Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Shapechanger",
+      "Structure: Lawful",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_209"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Ogre",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Giant, Chaotic Evil",
+      "rule",
+      "property | Armor class | 11 (hide armor)",
+      "property | Hit points | 59 (7d10 + 21)",
+      "property | Speed | 40ft",
+      "rule",
+      "dndstats | 19 | 8 | 16 | 5 | 7 | 7",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 8",
+      "property | Language | Common, Giant",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "fill | 1",
+      "section | Actions",
+      "description |Greatclub| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+      "description |Javelin| Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Giant",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_237"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc Blade of Ilneval",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 18 (chain mail, shield)",
+      "property | Hit points | 60 (8d8 + 24)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 17 | 11 | 17 | 10 | 12 | 14",
+      "rule",
+      "property | Saving Throws | Wis +3",
+      "property | Skills | Insight +3, Intimidation +4, Perception +3",
+      "property | Senses | Darkvision 60ft, Passive Perception 13",
+      "property | Language | Common, Orc",
+      "property | Challenge | 4 (1100 xp)",
+      "rule",
+      "description|Aggressive| Bonus action, move its speed towards a hostile",
+      "description|Foe Smiter of Ilneval| Extra damage w/ longsword (included)",
+      "fill | 1",
+      "section | Actions",
+      "description|Multiattack| Two longsword or two ranged attacks with its javelins. If Command is available, use it after these attacks.",
+      "description|Longsword| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) slashing damage, or 14 (2d10+3) slashing damage when used with two hands.",
+      "description|Javelin| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing",
+      "description|Ilneval's Command (Recharges 4-6)| Up to three allied orcs within 120 feet of this orc that can hear it can use their reactions to each make one weapon attack."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_183"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    "title": "Orc Claw of Luthic",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 14 (hide armor)",
+      "property | Hit points | 45 (6d8 + 18)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 14 | 15 | 16 | 10 | 15 | 11",
+      "rule",
+      "property | Skills | Intimidation +2, Medicine +4, Survival +4",
+      "property | Senses | Darkvision 60ft, Passive Perception 12",
+      "property | Language | Common, Orc",
+      "property | Challenge | 2 (450 xp)",
+      "rule",
+      "description|Aggressive| Bonus action, move its speed towards a hostile",
+      "description|Spellcasting| The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:",
+      "bullet|Cantrips (at will):| <i>guidance</i>, <i>mending, resistance</i>, <i>thaumaturgy</i>",
+      "bullet|1st level (4 slots):| <i>bane</i>, <i>cure wounds</i>, <i>guiding bolt</i>",
+      "bullet|2nd level (3 slots):| <i>augury</i>, <i>warding bond</i>",
+      "bullet|3rd level (2 slots):| <i>bestow curse</i>, <i>create food and water</i>",
+      "fill | 1",
+      "section | Actions",
+      "description|Multiattack| The orc makes two claw attacks, or four claw attacks if it has fewer than half of its hit points remaining.",
+      "description|Claw| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_183"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc Hand of Yurtrus",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 12 (hide armor)",
+      "property | Hit points | 30 (4d8 + 12)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 12 | 11 | 16 | 11 | 14 | 9",
+      "rule",
+      "property | Skills | Arcana +2, Intimidation +1, Medicine +4, Religion +2",
+      "property | Senses | Darkvision 60ft, Passive Perception 12",
+      "property | Language | Understands Common and Orc but can't speak",
+      "property | Challenge | 2 (450 xp)",
+      "rule",
+      "description|Aggressive| Bonus action, move its speed towards a hostile",
+      "description|Spellcasting| The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:",
+      "bullet|Cantrips (at-will):| <i>guidance</i>, <i>mending, resistance</i>, <i>thaumaturgy</i>",
+      "bullet|1st level (4 slots):| <i>bane</i>, <i>detect magic</i>, <i>inflict wounds</i>, <i>protection from evil and good</i>",
+      "bullet|2nd level (3 slots):| <i>blindness/deafness</i>, <i>silence</i>",
+      "fill | 1",
+      "section | Actions",
+      "description|Touch of the White Hand| Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_184"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc Nurtured One of Yurtrus",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 9",
+      "property | Hit points | 30 (4d8 + 12)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 15 | 8 | 16 | 7 | 11 | 7",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Orc",
+      "property | Challenge | 1/2 (100 xp)",
+      "rule",
+      "description|Aggressive| Bonus action, move its speed towards a hostile",
+      "description|Corrupted Carrier| When reduced to 0HP, it explodes, any creature in 10ft makes DC 13 Constitution save. Failure: creature takes 14 (4d6) poison and becomes poisoned. Success: half damage and isn't poisoned. If poisoned by this effect can repeat the save at the end of each of its turn, ending the effect on itself on a success. While poisoned by this effect, a creature can't regain hit points.",
+      "description|Nurtured One of Yurtrus| The orc has advantage on saving throws against poison and disease.",
+      "fill | 1",
+      "section | Actions",
+      "description|Claws|Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage plus 2 (1d4) necrotic.",
+      "description|Corrupted Vengeance| The orc reduces itself to 0 hit points, triggering its Corrupted Carrier trait."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_184"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc Red Fang of Shargaas",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 15 (studded leather armor)",
+      "property | Hit points | 52 (8d8 + 16)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 16 | 15 | 9 | 11 | 9",
+      "rule",
+      "property | Skills | Intimidation +1, Perception +2, Stealth +5",
+      "property | Senses | Darkvision 60ft, Passive Perception 12",
+      "property | Language | Common, Orc",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Cunning Action| On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.",
+      "description|Hand of Shargaas| 2 extra dice, w/ weapon attack (included).",
+      "description|Shargaas's Sight| Magical darkness ignored by orc's vision.",
+      "description|Slayer| First round, Advantage on attacks against those that haven't gone yet. Surprised creature get auto critical hit",
+      "fill | 1",
+      "section | Actions",
+      "description|Multiattack| The orc makes two scimitar or dart attacks.",
+      "description|Scimitar| Melee: +5, 5ft, Single. Hit: 13 (3d6+3) slashing.",
+      "description|Dart| Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.",
+      "description|Veil of Shargaas (Recharges after a Short or Long Rest)| Casts darkness without components. Wisdom is its ability."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_185"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 13 (hide armor)",
+      "property | Hit points | 15 (2d8 + 6)",
+      "property | Speed | 30ft ",
+      "rule",
+      "dndstats | 16 | 12 | 16 | 7 | 11 | 10",
+      "rule",
+      "property | Skills | Intimidation +2",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Orc ",
+      "property | Challenge | 1/2 (100 XP)",
+      "rule",
+      "description |Aggressive| As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.",
+      "fill | 1",
+      "section | Actions",
+      "description |Greataxe| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+      "description |Javelin| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_246"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc War Chief",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 16 (Chain mail)",
+      "property | Hit points | 93 (11d8 + 44)",
+      "property | Speed | 30ft ",
+      "rule",
+      "dndstats | 18 | 12 | 18 | 11 | 11 | 11",
+      "rule",
+      "property | Saving Throws | Str +6, Con +6, Wis +2 ",
+      "property | Skills | Intimidation +5",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Orc ",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "description |Aggressive| Bonus action, move up to speed toward a hostile",
+      "description |Gruumsh's Fury|Extra 4(ld8) damage when it hits with a weapon attack (included in the attacks). ",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| Makes two attacks with its greataxe or its spear.",
+      "description |Greataxe| Melee: +6, 5ft. Hit: 15 (1d12+4 plus 1d8) slashing",
+      "description |Spear| Melee or Ranged: +6, 5ft. or 20/60ft. Hit: 12 (1d6+4 plus 1d8) PRCN, or 13 (2d8 + 4) PRCN if two handed melee",
+      "description |Battle Cry (1/Day)| Each creature of the war chief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of the war chief's next turn. The war chief can then make one attack as a bonus action. "
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_246"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orc Eye of Gruumsh",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 16 (ring mail, shield)",
+      "property | Hit points | 45 (6d8 + 18)",
+      "property | Speed | 30ft ",
+      "rule",
+      "dndstats | 16 | 12 | 16 | 9 | 13 | 12",
+      "rule",
+      "property | Skills | Intimidation +3, Religion +1",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | Common, Orc ",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Aggressive| Bonus action, move up to speed toward a hostile",
+      "description |Gruumsh's Fury|Extra 4(ld8) damage when it hits with a weapon attack (included in the attacks). ",
+      "description |Spellcasting| 3rd-level spellcaster. Ability is Wisdom (DC11, +3 to hit). Has the following cleric spells prepared:",
+      "bullet |Cantrips (at-will):| <i>guidance</i>, <i>resistance</i>, <i>thaumaturgy</i>",
+      "bullet |1st level (4 slots):| <i>bless</i>, <i>command</i>",
+      "bullet |2nd level (2 slots):| <i>augury</i>, <i>spiritual weapon</i> (spear)",
+      "fill | 1",
+      "section | Actions",
+      "description |Spear| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_247"
+    ]
+  },
+  {
+    "count": 1,
+    "title": "Orog",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 18 (plate)",
+      "property | Hit points | 42 (5d8 + 20)",
+      "property | Speed | 30ft ",
+      "rule",
+      "dndstats | 18 | 12 | 18 | 12 | 11 | 12",
+      "rule",
+      "property | Skills | Intimidation +5, Survival +2",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Orc ",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Aggressive| Bonus action, move up to speed toward a hostile",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The orog makes two greataxe attacks.",
+      "description |Greataxe| Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.",
+      "description |Javelin| Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_247"
+    ],
+    "color": ""
+  },
+  {
+    "count": 1,
+    
+    "title": "Half-Ogre",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Giant, Any Chaotic Alignment",
+      "rule",
+      "property | Armor class | 12 (hide armor)",
+      "property | Hit points | 30 (4d10 + 8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 17 | 10 | 14 | 7 | 9 | 10",
+      "rule",
+      "property | Senses | Darkvision 60ft, Passive Perception 9",
+      "property | Language | Common, Giant",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "fill | 1",
+      "section | Actions",
+      "description |Battleaxe| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands.",
+      "description |Javelin| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 10 (2d6 + 3) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Giant",
+      
+      "Structure: Chaotic",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Monster_Manual_238"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Bugbear",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Goblinoid), Chaotic Evil",
+      "rule",
+      "property | Armor class | 16 (hide armor, shield) ",
+      "property | Hit points | 27 (5d8 + 5)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 15 | 14 | 13 | 8 | 11 | 9",
+      "rule",
+      "property | Skills | Stealth +6, Survival +2",
+      "property | Senses | Darkvision 60ft, Passive Perception 10",
+      "property | Language | Common, Goblin",
+      "property | Challenge | 1 (200 XP)",
+      "rule",
+      "description |Brute| A melee weapon deals one extra die of its damage when the Bugbear hits with it (included in the attack).",
+      "description |Surprise Attack| If the Bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.",
+      "fill | 1",
+      "section | Actions",
+      "description |Morningstar| Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+      "description |Javelin| Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Goblinoid",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_33"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Carrion Beetle",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Large Beast, Neutral",
+      "rule",
+      "property | Armor class | 15 (natural armor)",
+      "property | Hit points | 127 (15d10 + 45)",
+      "property | Speed | 30ft, <b>Burrow</b> 20ft, <b>Climb</b> 10ft",
+      "rule",
+      "dndstats | 19 | 12 | 17 | 1| 13 | 10",
+      "rule",
+      "property | Condition Immunities | Paralysis",
+      "property | Senses | Darkvision 60ft, Passive Perception 11",
+      "property | Language | -",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "description |Multiattack| The beetle makes one bite attack and two claw attacks.",
+      "description |Bite| Melee Weapon Attack: +6 to hit, reach 10 ft, one target. Hit: 10 (1d12 + 4) piercing damage.",
+      "description |Claws| Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+      "description |Acid Spit (Recharge 5-6)| The carrion beetle spits a line of acid that is 30 ft. long and 5 ft. wide. Each creature in that line takes 32 (5d12) acid damage, or half damage with a successful DC 13 Dexterity saving throw."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      "",
+      "Structure: Neutral",
+      "Alignment: Neutral",
+      "Legendary: No",
+      "Book: Tome_Beast_31"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Gnoll",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium humanoid (Gnoll), Chaotic Evil",
+      "rule",
+      "property | Armor class | 15 (hide armor, shield)",
+      "property | Hit points | 22 (5d8)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 14 | 12 | 11 | 6 | 10 | 7",
+      "rule",
+      "property | Senses | Darkvision 60ft, passive Perception 16",
+      "property | Language | Gnoll",
+      "property | Challenge | 1/2 (100 XP)",
+      "rule",
+      "description |Rampage| When the Gnoll reduces a creature to 0 hit points with a melee attack on its turn, the Gnoll can take a bonus action to move up to half its speed and make a bite attack.",
+      "fill | 1",
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+      "description |Spear| Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+      "description |Longbow| Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Gnoll",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_163"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Gnoll Pack Lord",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium humanoid (Gnoll), Chaotic Evil",
+      "rule",
+      "property | Armor class | 15 (chain shirt)",
+      "property | Hit points | 49 (9d8 + 9)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 16 | 14 | 13 | 8 | 11 | 9",
+      "rule",
+      "property | Senses | Darkvision 60ft, passive Perception 10",
+      "property | Language | Gnoll",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Rampage| When the Gnoll reduces a creature to 0 hit points with a melee attack on its turn, the Gnoll can take a bonus action to move up to half its speed and make a bite attack.",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The Gnoll makes two attacks, either with its glaive or its longbow, and uses its Incite Rampage if it can.",
+      "description |Bite| Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.",
+      "description |Glaive| Melee: +5. 10ft. Single. Hit: 8(1d10 + 3) slashing",
+      "description |Longbow| Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+      "description |Incite Rampage (Recharge 5-6)| One creature the Gnoll can see within 30 feet of it can use its reaction to make a melee attack if it can hear the Gnoll and has the Rampage trait."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Gnoll",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_163"
+    ]
+  },
+  {
+    "count": 1,
+    
+    "title": "Gnoll Fang of Yeenoghu",
+    "icon": "hood",
+    "contents": [
+      "subtitle | Medium humanoid (Gnoll), Chaotic Evil",
+      "rule",
+      "property | Armor class | 14 (hide armor)",
+      "property | Hit points | 65 (10d8 + 20)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 17 | 15 | 15 | 10 | 11 | 13",
+      "rule",
+      "property | Saving Throws | Con +4, Wis +2, Cha + 3",
+      "property | Senses | Darkvision 60ft, passive Perception 10",
+      "property | Language | Abyssal, Gnoll",
+      "property | Challenge | 4 (1100 XP)",
+      "rule",
+      "description |Rampage| When the Gnoll reduces a creature to 0 hit points with a melee attack on its turn, the Gnoll can take a bonus action to move up to half its speed and make a bite attack. ",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The Gnoll makes three attacks: one with its bite and two with its claws.",
+      "description |Bite|Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) pierci ng damage, and the target must succeed on a DC 12 Constitution saving throw or take 7 (2d6) poison damage.",
+      "description |Claw| Melee Weapon Attack: +5 to hit, reach 5 ft. , one target.Hit: 7 (1d 8 + 3) slas hing damage. "
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Gnoll",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Monster_Manual_163"
+    ]
+  }
+]

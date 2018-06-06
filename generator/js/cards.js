@@ -296,7 +296,7 @@ var card_element_generators = {
 
 function card_generate_contents(contents, card_data, options) {
     var result = "";
-    result += '<div class="card-content-container">';
+    result += '<div class="card-content-container icon-' + card_data.icon_back + '">';
     result += contents.map(function (value) {
         var parts = card_data_split_params(value);
         var element_name = parts[0];

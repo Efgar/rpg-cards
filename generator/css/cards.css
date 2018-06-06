@@ -19,7 +19,11 @@
     padding-top:1mm;
     border-radius: 2mm;
     margin-top:0px;
-    background-color: white;
+    background-color: linen;
+    background-blend-mode: normal;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: contain;
     border-color: inherit;
     display: flex;
     flex-direction: column;

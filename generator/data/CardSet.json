@@ -1,0 +1,772 @@
+[{
+  "count": 1,
+  "color": "orange",
+  "title": "Bless",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 30 feet",
+    "property | Components | V,S,M",
+"property | Material component | a sprinkling of holy water",    "rule",
+    "text | You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Searing Smite",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | Self",
+    "property | Components | V",    "rule",
+    "text | The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spell ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Detect Poison and Disease",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S,M",
+"property | Material component | a yew leaf",    "rule",
+    "text | For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
+    "text | The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Purify Food and Drink",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Transmutation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 10 feet",
+    "property | Components | V,S",    "rule",
+    "text | All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Transmutation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Ceremony",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Abjuration",
+    "rule",
+    "property | Casting time | 1 hour",
+    "property | Range | Touch",
+    "property | Components | V,S,M",
+"property | Material component | 25 gp worth of powdered silver, which the spell consumes",    "rule",
+    "text | You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
+    "text | Atonement: You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment.",
+    "text | Bless Water: You touch one vial of water and cause it to become holy water.",
+    "text | Coming of Age: You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.",
+    "text | Dedication: You touch one humanoid who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.",
+    "text | Funeral Rite: You touch one corpse, and for the next 7 days, the target can’t become undead by any means short of a wish spell.",
+    "text | Marriage: You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Abjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Wrathful Smite",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | Self",
+    "property | Components | V",    "rule",
+    "text | The next time you hit with a melee weapon attack during this spell’s duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Divine Favor",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | Self",
+    "property | Components | V,S",    "rule",
+    "text | Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Heroism",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Touch",
+    "property | Components | V,S",    "rule",
+    "text | A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Protection from Evil and Good",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Abjuration",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Touch",
+    "property | Components | V,S,M",
+"property | Material component | holy water or powdered silver and iron, which the spell consumes",    "rule",
+    "text | Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.",
+    "text | The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Abjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Cure Wounds",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Touch",
+    "property | Components | V,S",    "rule",
+    "text | A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Thunderous Smite",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | Self",
+    "property | Components | V",    "rule",
+    "text | The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Shield of Faith",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Abjuration",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | 60 feet",
+    "property | Components | V,S,M",
+"property | Material component | a small parchment with a bit of holy text written on it",    "rule",
+    "text | A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Abjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Detect Evil and Good",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S",    "rule",
+    "text | For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.",
+    "text | The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Compelled Duel",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | 30 feet",
+    "property | Components | V",    "rule",
+    "text | You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move into a space that is more than 30 feet away from you; if it succeeds on this saving throw, the spell doesn’t restrict the target’s movement for that turn.",
+    "text | The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Detect Magic",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S",    "rule",
+    "text | For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
+    "text | The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "orange",
+  "title": "Command",
+  "icon": "white-book-1",
+  "icon_back": "class-paladin",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 60 feet",
+    "property | Components | V",    "rule",
+    "text | You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.",
+    "text | Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.",
+    "text | Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.",
+    "text | Drop The target drops whatever it is holding and then ends its turn.",
+    "text | Flee. The target spends its turn moving away from you by the fastest available means.",
+    "text | Grovel. The target falls prone and then ends its turn.",
+    "text | Halt. The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+  ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Fire Bolt",
+  "icon": "white-book-0",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 120 feet",
+    "property | Components | V,S",    "rule",
+    "text | You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+  ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Message",
+  "icon": "white-book-0",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Transmutation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 120 feet",
+    "property | Components | V,S,M",
+"property | Material component | a short piece of copper wire",    "rule",
+    "text | You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
+    "text | You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn't have to follow a straight line and can travel freely around corners or through openings."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Transmutation"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Minor Illusion",
+  "icon": "white-book-0",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Illusion",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 30 feet",
+    "property | Components | S,M",
+"property | Material component | a bit of fleece",    "rule",
+    "text | You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.",
+    "text | If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.",
+    "text | If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.",
+    "text | If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Illusion"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Color Spray",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Illusion",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self (15-foot cone)",
+    "property | Components | V,S,M",
+"property | Material component | a pinch of powder or sand that is colored red, yellow, and blue",    "rule",
+    "text | A dazzling array of flashing, colored light springs from your hand. Roll 6d10; the total is how many hit points of creatures this spell can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).",
+    "text | Starting with the creature that has the lowest current hit points, each creature affected by this spell is blinded until the spell ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Illusion"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Comprehend Languages",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S,M",
+"property | Material component | a pinch of soot and salt",    "rule",
+    "text | For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.",
+    "text | This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Detect Magic",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S",    "rule",
+    "text | For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
+    "text | The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Find Familiar",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Conjuration",
+    "rule",
+    "property | Casting time | 1 hour",
+    "property | Range | 10 feet",
+    "property | Components | V,S,M",
+"property | Material component | 10gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",    "rule",
+    "text | You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog, hawk, lizard, octopus, owl, poisonous snake, fish, rat, raven, sea horse, spider, or weasel.",
+    "text | Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.",
+    "text | When the familiar drops to 0 hit points, it disappears, leaving behind no physical form.",
+    "text | While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears. During this time, you are deaf and blind with regard to your own senses.",
+    "text | As an action, you can temporarily dismiss your familiar to a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+    "text | You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form.",
+    "text | Finally, when you cast a spell with a range of touch, your familiar can deliver the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell. If the spell requires an attack roll, you use your attack modifier for the roll."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Conjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Hideous Laughter",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 30 feet",
+    "property | Components | V,S,M",
+"property | Material component | tiny tarts and a feather that is waved in the air",    "rule",
+    "text | A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.",
+    "text | At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target had advantage on the saving throw if it's triggered by damage. On a success, the spell ends."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Ice Knife",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Conjuration",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 60 feet",
+    "property | Components | S,M",
+"property | Material component | a drop of water or piece of ice",    "rule",
+    "text | You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Conjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Identify",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Divination",
+    "rule",
+    "property | Casting time | 1 minute",
+    "property | Range | Touch",
+    "property | Components | V,S,M",
+"property | Material component | a pearl worth at least 100 gp and an owl feather",    "rule",
+    "text | You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.",
+    "text | If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Divination"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Mage Armor",
+  "icon": "white-book-1",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Abjuration",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Touch",
+    "property | Components | V,S,M",
+"property | Material component | a piece of cured leather",    "rule",
+    "text | You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Abjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "maroon",
+  "title": "Thaumaturgy",
+  "icon": "white-book-0",
+  "icon_back": "class-wizard",
+  "contents": [
+    "subtitle | Transmutation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 30 feet",
+    "property | Components | V",    "rule",
+    "text | You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range.",
+    "text | - Your voice booms up to three times as loud as normal for 1 minute.",
+    "text | - You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+    "text | - You cause harmless tremors in the ground for 1 minute.",
+    "text | - You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+    "text | - You instantaneously cause an unlocked door or window to fly open or slam shut.",
+    "text | - You alter the appearance of your eyes for 1 minute.",
+    "text | If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Transmutation"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Eldritch Blast",
+  "icon": "white-book-0",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Evocation",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 120 feet",
+    "property | Components | V,S",    "rule",
+    "text | A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.",
+    "text | The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+  ],
+  "tags": [
+    "spell",
+    "Evocation"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Poison Spray",
+  "icon": "white-book-0",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Conjuration",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 10 feet",
+    "property | Components | V,S",    "rule",
+    "text | You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12)."
+  ],
+  "tags": [
+    "spell",
+    "Conjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Armor of Agathys",
+  "icon": "white-book-1",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Abjuration",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S,M",
+"property | Material component | a cup of water",    "rule",
+    "text | A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st."
+  ],
+  "tags": [
+    "spell",
+    "Abjuration"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Disguise Self",
+  "icon": "white-book-1",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Illusion",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | V,S",    "rule",
+    "text | You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
+    "text | The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
+    "text | To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Illusion"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Hex",
+  "icon": "white-book-1",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 bonus action",
+    "property | Range | 90 feet",
+    "property | Components | V,S,M",
+"property | Material component | the petrified eye of a newt",    "rule",
+    "text | You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.",
+    "text | If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.",
+    "text | A remove curse cast on the target ends this spell early."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
+  ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Friends",
+  "icon": "white-book-0",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | Self",
+    "property | Components | S,M",
+"property | Material component | a small amount of makeup applied to the face as this spell is cast",    "rule",
+    "text | For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn’t hostile toward you. When the spell ends, the creature realizes that you have used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM’s discretion), depending on the nature of your interaction with it."
+,    "fill | 1"
+      ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Charm Person",
+  "icon": "white-book-1",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Enchantment",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 30 feet",
+    "property | Components | V,S",    "rule",
+    "text | You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+  ],
+  "tags": [
+    "spell",
+    "Enchantment"
+  ]
+}, {
+  "count": 1,
+  "color": "purple",
+  "title": "Cause Fear",
+  "icon": "white-book-1",
+  "icon_back": "class-warlock",
+  "contents": [
+    "subtitle | Necromancy",
+    "rule",
+    "property | Casting time | 1 action",
+    "property | Range | 60 feet",
+    "property | Components | V",    "rule",
+    "text | You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+,    "fill | 1"
+        ,"section | At higher levels",
+"text | When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above lst. The creatures must be within 30 feet of each other when you target them."
+  ],
+  "tags": [
+    "spell",
+    "Necromancy"
+  ]
+}]
