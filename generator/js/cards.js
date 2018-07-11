@@ -32,6 +32,83 @@ function card_init(card) {
     card.title = card.title || "";
     card.contents = card.contents || [];
     card.tags = card.tags || [];
+    card.icon_back = get_icon_from_tags(card.tags) || card.icon_back;
+}
+
+function get_icon_from_tags(cardTags){
+    if(cardTags.indexOf('spell') >= 0){
+        return null;
+    }
+    if(cardTags.indexOf('Yuan-Ti') >= 0){
+        return 'snake-totem';
+    }
+    if(cardTags.indexOf('Ooze') >= 0){
+        return 'Slime';
+    }
+    if(cardTags.indexOf('Plant') >= 0){
+        return 'falling-leaf';
+    }
+    if(cardTags.indexOf('Orc') >= 0){
+        return 'orc-head';
+    }
+    if(cardTags.indexOf('Goblinoid') >= 0){
+        return 'goblin-head';
+    }
+    if(cardTags.indexOf('Goblin') >= 0){
+        return 'goblin-head';
+    }
+    if(cardTags.indexOf('Kobold') >= 0){
+        return 'dragon-head';
+    }
+    if(cardTags.indexOf('Lizardfolk') >= 0){
+        return 'dragon-head';
+    }
+    if(cardTags.indexOf('Shapechanger') >= 0){
+        return 'wolf-howl';
+    }
+    if(cardTags.indexOf('Ogre') >= 0){
+        return 'ogre';
+    }
+    if(cardTags.indexOf('Devil') >= 0){
+        return 'diablo-skull';
+    }
+    if(cardTags.indexOf('Demon') >= 0){
+        return 'sharped-teeth-skull';
+    }
+    if(cardTags.indexOf('Fey') >= 0){
+        return 'bad-gnome';
+    }
+    if(cardTags.indexOf('Fiend') >= 0){
+        return 'evil-fork';
+    }
+    if(cardTags.indexOf('Monstrosity') >= 0){
+        return 'griffin-symbol';
+    }
+    if(cardTags.indexOf('Aberration') >= 0){
+        return 'floating-tentacles';
+    }
+    if(cardTags.indexOf('Construct') >= 0){
+        return 'golem-head';
+    }
+    if(cardTags.indexOf('Elemental') >= 0){
+        return 'spark-spirit';
+    }
+    if(cardTags.indexOf('Beast') >= 0){
+        return 'wolf-head';
+    }
+    if(cardTags.indexOf('Undead') >= 0){
+        return 'raise-zombie';
+    }
+    if(cardTags.indexOf('Giant') >= 0){
+        return 'giant';
+    }
+    if(cardTags.indexOf('Dragon') >= 0){
+        return 'dragon-head';
+    }
+    if(cardTags.indexOf('Humanoid') >= 0){
+        return 'hood';
+    }
+    return 'beast-eye';
 }
 
 function card_has_tag(card, tag) {
@@ -290,12 +367,13 @@ var card_element_generators = {
     icon: card_element_inline_icon
 };
 
+
 // ============================================================================
 // Card generating functions
 // ============================================================================
-
 function card_generate_contents(contents, card_data, options) {
     var result = "";
+    console.log('<div class="card-content-container icon-' + card_data.icon_back + '">');
     result += '<div class="card-content-container icon-' + card_data.icon_back + '">';
     result += contents.map(function (value) {
         var parts = card_data_split_params(value);
@@ -358,7 +436,6 @@ function card_generate_back(data, options) {
 	var icon = card_data_icon_back(data, options);
 
     var result = "";
-    console.log('options.rounded_corners', options.rounded_corners);
     result += '<div class="card card-size-' + options.card_size + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + style_color + '>';
     result += '  <div class="card-back" ' + background_style + '>';
 	if (!url)
@@ -479,6 +556,14 @@ function card_pages_generate_style(options) {
     result += "}\n";
     result += "</style>\n";
     return result;
+}
+
+
+
+function adjustCardData(card_data){
+    if(card_data){
+
+    }
 }
 
 function card_pages_generate_html(card_data, options) {

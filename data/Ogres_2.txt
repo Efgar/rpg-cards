@@ -1,0 +1,150 @@
+[
+{
+    "count": 1,
+    
+    "title": "Giant Bat",
+    "icon": "hood",
+    "icon_back": "hood",
+	"contents": [
+      "subtitle | Large Beast, Unaligned",
+      "rule",
+      "property | Armor class | 13",
+      "property | Hit points | 22 (4d10)",
+      "property | Speed | 10ft, <b>Fly</b> 60ft",
+      "rule",
+      "dndstats | 15 | 16 | 11 | 2 | 12 | 6",
+      "rule",
+      "property | Senses | Blindsight 60ft, Passive Perception 11",
+      "property | Language | -",
+      "property | Challenge | 1/4 (50 XP)",
+      "rule",
+      "description |Echolocation| The bat can't use its blindsight while deafened.",
+      "description |Keen Hearing| The bat has advantage on Wisdom (Perception) checks that rely on hearing.",
+      "fill | 1",
+      "section | Actions",
+      "description |Bite| Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_323"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Orc Red Fang of Shargaas",
+    "icon": "hood",
+    "icon_back": "hood",
+	"contents": [
+      "subtitle | Medium Humanoid (Orc), Chaotic Evil",
+      "rule",
+      "property | Armor class | 15 (studded leather armor)",
+      "property | Hit points | 52 (8d8 + 16)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 11 | 16 | 15 | 9 | 11 | 9",
+      "rule",
+      "property | Skills | Intimidation +1, Perception +2, Stealth +5",
+      "property | Senses | Darkvision 60ft, Passive Perception 12",
+      "property | Language | Common, Orc",
+      "property | Challenge | 3 (700 xp)",
+      "rule",
+      "description|Cunning Action| On each of its turns, the orc can use a bonus action to take the Dash, Disengage, or Hide action.",
+      "description|Hand of Shargaas| 2 extra dice, w/ weapon attack (included).",
+      "description|Shargaas's Sight| Magical darkness ignored by orc's vision.",
+      "description|Slayer| First round, Advantage on attacks against those that haven't gone yet. Surprised creature get auto critical hit",
+      "fill | 1",
+      "section | Actions",
+      "description|Multiattack| The orc makes two scimitar or dart attacks.",
+      "description|Scimitar| Melee: +5, 5ft, Single. Hit: 13 (3d6+3) slashing.",
+      "description|Dart| Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (3d4+3) piercing damage.",
+      "description|Veil of Shargaas (Recharges after a Short or Long Rest)| Casts darkness without components. Wisdom is its ability."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      "Orc",
+      "Structure: Chaotic",
+      "Alignment: Evil",
+      "Legendary: No",
+      "Book: Volos_Guide_185"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Bandit Captain",
+    "icon": "hood",
+	"icon_back": "hood",
+    "contents": [
+      "subtitle | Medium Humanoid (Any), Any non-lawful Alignment",
+      "rule",
+      "property | Armor class | 15 (studded leather)",
+      "property | Hit points | 65 (10d8 + 20)",
+      "property | Speed | 30ft",
+      "rule",
+      "dndstats | 15 | 16 | 14 | 14 | 11 | 14",
+      "rule",
+      "property | Saving Throws | Str +4, Dex +5, Wis +2",
+      "property | Skills | Athletics +4, Deception +4",
+      "property | Senses | Passive Perception 10",
+      "property | Language | Any two languages",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.",
+      "description |Scimitar| Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+      "description |Dagger| Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "description |Parry| The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
+    ],
+    "tags": [
+      "creature",
+      "Humanoid",
+      
+      "Structure: non-lawful",
+      "Alignment: Any",
+      "Legendary: No",
+      "Book: Monster_Manual_344"
+    ]
+  },{
+    "count": 1,
+    
+    "title": "Cave Bear",
+    "icon": "hood",
+    "icon_back": "hood",
+	"contents": [
+      "subtitle | Large Beast, Unaligned",
+      "rule",
+      "property | Armor class | 12 (natural armor) ",
+      "property | Hit points | 42 (5d10 + 15)",
+      "property | Speed | 40ft, <b>Swim</b> 30ft",
+      "rule",
+      "dndstats | 20 | 10 | 16 | 2 | 13 | 7",
+      "rule",
+      "property | Skills | Perception +3",
+      "property | Senses | Darkvision 60ft, Passive Perception 13",
+      "property | Language | -",
+      "property | Challenge | 2 (450 XP)",
+      "rule",
+      "description |Keen Smell| The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "fill | 1",
+      "section | Actions",
+      "description |Multiattack| The bear makes two attacks: one with its bite and one with its claws.",
+      "description |Bite| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+      "description |Claws| Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    ],
+    "tags": [
+      "creature",
+      "Beast",
+      
+      "Structure: Unaligned",
+      "Alignment: Unaligned",
+      "Legendary: No",
+      "Book: Monster_Manual_334"
+    ]
+  }
+  ]
